@@ -4,7 +4,7 @@ dotenv.config();
 
 const handleTweet = () => {
     const twitterClient = new TwitterApi({
-        appKey: process.env.CONSUMER_KEY ?? '',
+        appKey: process.env.CONSUMER_KEY ?? 'Ns58tugCs20R4WPxMI6WILbD3',
         appSecret: process.env.CONSUMER_SECRET ?? '',
         accessToken: process.env.ACCESS_TOKEN ?? '',
         accessSecret: process.env.ACCESS_TOKEN_SECRET ?? '',
